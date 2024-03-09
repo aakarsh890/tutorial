@@ -1,0 +1,108 @@
+body{
+    background-image: url("./portrait-confident-model-grape-leaves.jpg");
+    background-size: cover;
+    height: 110vh;
+    margin: 0;
+}
+header{
+    color: white;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    
+}
+.logobox{
+    
+    display: inline-block;
+    width: 120px;
+    font-family: "Dancing Script", cursive;
+    font-size: larger;
+    font-weight: 500px;
+    cursor: pointer;
+}
+
+.navBox{
+    width: 600px;
+    position: absolute;
+    right: 20px;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;  
+}
+.navBox>a{
+    color: aliceblue;
+    margin: 20px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.navBox>a:hover{
+    color: salmon;
+}
+#homie{
+    color: salmon
+}
+.head{
+    color: salmon;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 60px;
+    left: 70px;
+    width: 500px;
+}
+.head+h3{
+    color: aliceblue;
+    position: relative;
+    top: 0px;
+    left: 90px;
+    width: 500px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.head+h3+p{
+    color: aliceblue;
+    position: relative;
+    left: 80px;
+    top: 10px;
+    width: 400px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.head+h3+p+p{
+    color: aliceblue;
+    
+    position: relative;
+    top: 30px;
+    left: 80px;
+    width: 400px;
+    font-style: italic;
+    font-family: "Roboto", sans-serif;
+}
+.btn{
+    border: 2px solid salmon;
+    position: relative;
+    top: 30px;
+    left: 80px;
+    width: 120px;
+    padding: 15px;
+    background-color: salmon;
+    color: rgb(248, 245, 245);
+    font-family: "Roboto", sans-serif;
+    font-weight: 600px;
+    cursor: pointer;
+    transition: all 0.5s;
+    color: rgb(20, 20, 20);
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: rgba(71, 61, 139, 0);
+    color: white;
+}
+footer{
+    color: aliceblue;
+    position: fixed;
+    bottom: 0;
+    left: 700px;
+}
+
